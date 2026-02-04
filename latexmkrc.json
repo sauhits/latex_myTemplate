@@ -1,0 +1,11 @@
+{
+	"latexmkrc": {
+		"prefix": "latexmkrc",
+		"body": [
+			"$latex = 'platex';",
+			"$bibtex = 'pbibtex';",
+			"$dvipdf = 'dvipdfmx %O -o %D %S';"
+		],
+		"description": "latex compile by platex"
+	}
+}
